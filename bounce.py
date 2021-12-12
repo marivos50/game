@@ -11,8 +11,8 @@ y = 120
 black = (0,0,0)
 white = (255,255,255)
 
-screen = pygame.display.set_mode(size)
-
+#screen = pygame.display.set_mode(size)
+screen=pygame.display()
 while 1:
 
     for event in pygame.event.get():
