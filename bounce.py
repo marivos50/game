@@ -1,7 +1,7 @@
 import sys
 from pygame import *
 
-pygame.display.init()
+pygame.init()
 
 size = width, height = 640, 480
 dx = 1
